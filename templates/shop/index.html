@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Home page
+        </title>
+    </head>
+    <body>
+        <h1>
+            Welcome to Indus!
+        </h1>
+        <a href="{% url 'logout' %}" style=" color: green;">Logout</a>
+        
+        <hr>
+
+        <h2>Categories</h2>
+        <ul id="categories">
+            <li><a href="{% url 'weapons' %}" style="color: green;">Weapons</a></li>
+            <li><a href="http://www.google.com/search?q=dresses" style="color: green;">Dresses</a></li>
+            <li><a href="http://www.google.com/search?q=food" style="color: green;">Food</a></li>
+            <li><a href="http://www.google.com/search?q=furniture" style="color: green;">Furniture</a></li>
+        </ul>
+    </body>
+</html>
